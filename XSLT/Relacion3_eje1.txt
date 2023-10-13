@@ -1,0 +1,18 @@
+Construir las sentencias Xpath que permitan obtener los siguientes datos:
+a. Nombre del propietario de la agenda.
+    agenda/propietario/identificadores/nombre/text()
+
+b. Teléfono de casa del propietario.
+    agenda/propietario/telefonos/casa/text()
+
+c. Nombres y apellidos de los contactos de la agenda.
+    agenda/contactos/persona/identificadores/(nombre | apellidos)/text()
+
+d. Nombre e identificador de cada contacto.
+    agenda/contactos/persona/identificadores/nombre/text() | /agenda/contactos/persona/@id
+
+e. Datos del contacto con identificador "p02".
+    agenda/contactos/persona[@id="p02"]/identificadores/(nombre|apellidos)/text()
+
+f. Identificadores de los contactos que tienen móvil.
+    agenda/contactos/persona[telefonos/movil]/@id

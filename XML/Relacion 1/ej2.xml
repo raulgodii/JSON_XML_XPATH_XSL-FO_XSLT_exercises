@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ej3.css" type="text/css"?>
+<agenda>
+  <contacto>
+    <nombre>María</nombre>
+    <ciudad CP="28001">Madrid</ciudad>
+    <telefono>555-1234</telefono>
+    <email>maria@mail.com</email>
+    <casado>false</casado>
+  </contacto>
+  <contacto>
+    <nombre>Pablo</nombre>
+    <ciudad CP="08001">Barcelona</ciudad>
+    <telefono>555-5678</telefono>
+    <email>pablo@mail.com</email>
+    <casado>true</casado>
+  </contacto>
+</agenda>

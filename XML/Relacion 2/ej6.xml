@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ej6.dtd" type="application/xml-dtd"?>
+
+<listacompras>
+    <venta>
+        <ventaacredito>
+            <fechainpago>19/02/2023</fechainpago>
+            <cantidad>30</cantidad>
+        </ventaacredito>
+    </venta>
+    <venta>
+        <ventainmediata>
+            <cantidad>60</cantidad>
+            <divisa>Euro</divisa>
+        </ventainmediata>
+    </venta>
+    <venta>
+        <ventaacredito>
+            <cantidad>50</cantidad>
+        </ventaacredito>
+    </venta>
+</listacompras>

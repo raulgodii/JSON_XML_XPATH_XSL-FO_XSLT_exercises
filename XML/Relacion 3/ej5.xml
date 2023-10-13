@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ej5.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<pedido>
+    <cliente>
+        <nombre>Juan</nombre>
+        <apellidos>Delgado Martínez</apellidos>
+        <direccion>calle Barco 4, tercer piso, l etra A</direccion>
+    </cliente>
+    <articulo>bicicleta A2013</articulo>
+    <fecha_entrega>2003-12-03</fecha_entrega>
+</pedido>

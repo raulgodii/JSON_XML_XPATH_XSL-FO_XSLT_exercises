@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF8"?>
+<?xml-model href="ej10.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<listadeproductos>
+    <producto>
+        <nombre> Galletas integrales</nombre>
+        <codigo>1001</codigo>
+        <precio>6.45</precio>
+        <tipo es_dietetico="si"/>
+    </producto>
+    <producto>
+        <nombre>Cereales con chocolate</nombre>
+        <codigo>1002</codigo>
+        <precio>3.95</precio>
+        <tipo es_dietetico="no"/>
+    </producto>
+</listadeproductos>

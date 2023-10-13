@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Amuebla_SA SYSTEM "ej11.dtd">
+
+<Amuebla_SA sede="Madrid">
+    <sucursal direccion1="direccion" direccion2="direccion">
+        <pedido>
+            <codigo_pedido>PED001</codigo_pedido>
+            <trabajador>Juan Pérez</trabajador>
+            <fecha>2023-04-11</fecha>
+            <observaciones_pedido estado="incompleto">sin observaciones</observaciones_pedido>
+            <plazo_revision>10-15 días</plazo_revision>
+
+            <articulo>
+              <codigo_articulo>ABC-001</codigo_articulo>
+              <unidades>2</unidades>
+              <precio>100.00</precio>
+              <observaciones_articulo>sin observaciones</observaciones_articulo>
+            </articulo>
+        </pedido>
+    </sucursal>
+</Amuebla_SA>

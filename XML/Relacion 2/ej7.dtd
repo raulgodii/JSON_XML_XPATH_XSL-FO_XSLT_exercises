@@ -1,0 +1,9 @@
+<!ELEMENT inventario (lapiz|boligrafo|cuaderno)*>
+<!ELEMENT cuaderno (numhojas, estilo)>
+<!ELEMENT numhojas (#PCDATA)>
+<!ELEMENT estilo (#PCDATA)>
+<!ELEMENT lapiz (dureza?)>
+<!ELEMENT dureza (#PCDATA)>
+<!ELEMENT boligrafo (precio, color?)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT color (#PCDATA)>

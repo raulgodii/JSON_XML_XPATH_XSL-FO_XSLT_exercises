@@ -1,0 +1,19 @@
+EJERCICIO 1
+h. //titulo[starts-with(text(),'S')]
+i. //titulo[contains(text(),'h')]
+j. //titulo[substring(text(),1,3)]
+k. //obra/@pais/upper-case(string())
+l. //obra[1]
+m. //obra[position()=3]
+n. //obra[last()]
+o. max(//[@anyo])
+p. //@anyo[data()>1850]/..
+q. //obra[@anyo!=1876]
+r. //obra[@pais>'España']
+s. //obra//autor	//obra/child::autor
+
+EJERCICIO 2
+a. //videojuego
+b. //videojuego//titulo
+c. //videojuego//titulo[contains(text(),'T')]
+d. //videojuego[@anyo>2000]/titulo

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ej9.dtd" type="application/xml-dtd"?>
+
+<listacursos>
+    <curso>
+        <alumno>
+            <dni>73729383K</dni>
+            <nombre>Raul</nombre>
+            <apellido1>Gonzalez</apellido1>
+            <apellido2>Diaz</apellido2>
+            <asignaturas>
+                <asignatura codigo="34343">
+                    <nombre>Programacion</nombre>
+                    <profesor NRP="3534234234">
+                        <nombre>Francisco</nombre>
+                        <apellido1>Lopez</apellido1>
+                    </profesor>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+    </curso>
+</listacursos>

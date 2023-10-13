@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE productos [
+    <!ELEMENT productos (producto+)>
+    <!ELEMENT producto (codigo, nombre?, descripcion?)>
+        <!ATTLIST producto tipo (raton | teclado | monitor) #REQUIRED>
+    <!ELEMENT codigo (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+]>
+
+<productos>
+    <producto tipo="teclado">
+        <codigo>666</codigo>
+        <nombre>Machupichu</nombre>
+        <descripcion>Esto es un descripcion</descripcion>
+    </producto>
+</productos>

@@ -1,0 +1,21 @@
+<!ELEMENT Amuebla_SA (sucursal*)>
+
+<!ELEMENT sucursal (pedido+)>
+
+<!ELEMENT pedido (codigo_pedido, trabajador, fecha, observaciones_pedido?, plazo_revision, articulo*)>
+<!ELEMENT codigo_pedido (#PCDATA)>
+<!ELEMENT trabajador (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT observaciones_pedido (#PCDATA)>
+<!ELEMENT plazo_revision (#PCDATA)>
+
+<!ELEMENT articulo (codigo_articulo, unidades, precio, observaciones_articulo?)>
+<!ELEMENT codigo_articulo (#PCDATA)>
+<!ELEMENT unidades (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT observaciones_articulo (#PCDATA)>
+
+<!ATTLIST Amuebla_SA sede CDATA "Madrid">
+<!ATTLIST sucursal direccion1 CDATA #REQUIRED>
+<!ATTLIST sucursal direccion2 CDATA #IMPLIED>
+<!ATTLIST observaciones_pedido estado (urgente | incompleto) "incompleto">

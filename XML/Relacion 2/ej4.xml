@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ej4.dtd" type="application/xml-dtd"?>
+<pedidos>
+  <pedido ref="P001">
+    <cantidad>5</cantidad>
+    <precio>10.50</precio>
+    <peso>1.2</peso>
+  </pedido>
+  <pedido ref="P002">
+    <cantidad>3</cantidad>
+    <precio></precio>
+  </pedido>
+  <pedido ref="P003">
+    <cantidad>4</cantidad>
+    <precio>7.99</precio>
+  </pedido>
+  <pedido ref="P004">
+    <cantidad>2</cantidad>
+    <precio>12.99</precio>
+    <peso>-1.0</peso>
+  </pedido>
+</pedidos>

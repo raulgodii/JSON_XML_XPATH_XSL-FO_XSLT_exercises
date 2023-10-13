@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ej4.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<registro_temperaturas>
+    <provincia>Alava</provincia>
+    <fecha>2023-11-01</fecha>
+    <temperatura>
+        <minima>-43</minima>
+        <maxima>20</maxima>
+    </temperatura>
+    <incidencias nombre="frio" severidad="alta"></incidencias>
+</registro_temperaturas>

@@ -1,0 +1,21 @@
+Construir las sentencias Xpath que permitan obtener los siguientes datos:
+a. Títulos de las películas
+    cine/peliculas/pelicula/titulo/text()
+
+b. Títulos de las películas en las que Anthony Perkins es actor
+    cine/peliculas/pelicula[actor="Anthony Perkins"]/titulo/text()
+
+c. Nombre de las personas que son mujeres
+    cine/personas/persona[@sexo="mujer"]/nombre/text()
+
+d. Directores de las películas en las que actúa Janet Leigh
+    cine/peliculas/pelicula[actor="Janet Leigh"]/titulo/text()
+
+e. Nombre de las personas vivas
+    cine/personas/persona[fechas[not(@fallecimiento)]]/nombre/text()
+
+f. Nombre de las personas que vivieron toda su vida en el siglo XX
+    cine/personas/persona[fechas[@fallecimiento<2000 and @nacimiento>1900]]/nombre/text()
+
+g. Fecha de nacimiento de los actores de la película "Tres en un sofá":
+    cine/personas/persona[nombre=../../peliculas/pelicula[titulo="Tres en un sofá"]/actor]/fechas/@nacimiento

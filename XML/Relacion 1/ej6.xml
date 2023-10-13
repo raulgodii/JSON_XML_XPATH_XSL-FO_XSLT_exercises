@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billete>
+  <pasajero>
+    <nombre>John Doe</nombre>
+  </pasajero>
+  <aeropuerto>
+    <origen>MAD</origen>
+    <destino>JFK</destino>
+  </aeropuerto>
+  <fecha>
+    <vuelo>2023-06-15</vuelo>
+    <hora>18:30</hora>
+  </fecha>
+</billete>

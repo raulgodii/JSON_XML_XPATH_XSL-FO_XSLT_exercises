@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ej7.dtd" type="application/xml-dtd"?>
+
+<inventario>
+    <lapiz>
+        <dureza>3</dureza>
+    </lapiz>
+    <cuaderno>
+        <numhojas>4</numhojas>
+        <estilo>B</estilo>
+    </cuaderno>
+    <boligrafo>
+        <precio>45</precio>
+        <color>Rojo</color>
+    </boligrafo>
+    <lapiz></lapiz>
+    <boligrafo>
+        <precio>40</precio>
+    </boligrafo>
+</inventario>

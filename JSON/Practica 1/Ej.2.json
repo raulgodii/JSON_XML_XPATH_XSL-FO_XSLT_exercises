@@ -1,0 +1,26 @@
+{
+    "nombre_equipo": "Los Angeles Lakers",
+    "color_equipacion": "Púrpura y Oro",
+    "nombre_estadio": "Staples Center",
+    "nombre_entrenador": "Frank Vogel",
+    "plantilla_historica": false,
+    "pagina_web": "https://www.nba.com/lakers/",
+    "jugadores": {
+       "base": [
+          {"nombre": "Russell Westbrook", "dorsal": 0},
+          {"nombre": "Kendrick Nunn", "dorsal": 2},
+          {"nombre": "Malik Monk", "dorsal": 1}
+       ],
+       "alero": [
+          {"nombre": "LeBron James", "dorsal": 23},
+          {"nombre": "Trevor Ariza", "dorsal": 3},
+          {"nombre": "Carmelo Anthony", "dorsal": 7}
+       ],
+       "pivot": [
+          {"nombre": "Anthony Davis", "dorsal": 3},
+          {"nombre": "Dwight Howard", "dorsal": 39},
+          {"nombre": "DeAndre Jordan", "dorsal": 6}
+       ]
+    }
+ }
+ 

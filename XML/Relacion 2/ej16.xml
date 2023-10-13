@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE cancion SYSTEM "ej16.dtd">
+
+<cancion duracion="4:47" anio="2008">
+    <titulo>Give it 2 me</titulo>
+    <compositores>
+        <compositor>
+            <nombres_c>Pharrel</nombres_c>
+            <apellidos_c>Williams</apellidos_c>
+        </compositor>
+    </compositores>
+    <productores>
+        <productor>
+            <nombres_p>Pharrel</nombres_p>
+            <apellidos_p>_cWilliams</apellidos_p>
+        </productor>
+    </productores>
+    <sello>Warner Bros. Records</sello>
+    <artista>Madonna</artista>
+</cancion>

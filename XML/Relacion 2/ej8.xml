@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ej8.dtd" type="application/xml-dtd"?>
+
+<listafacturas>
+    <factura>
+        <emisor CIF="ddd">
+            <nombre>Pedro</nombre>
+            <volumenventas>63</volumenventas>
+        </emisor>
+        <pagador CIF="aaa">
+            <nombre>Noemi</nombre>
+        </pagador>
+        <importe>50</importe>
+    </factura>
+</listafacturas>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="EjemploExamen.xsl" type="text/xsl"?>
+
+<gastos>
+    <mes>abril</mes>
+    <gasto desgravable="si">
+        <concepto>Papeleria</concepto>
+        <importe>300</importe>
+    </gasto>
+    <gasto desgravable="no">
+        <concepto>Otros Gastos</concepto>
+        <importe>1500</importe>
+    </gasto>
+    <gasto desgravable="si">
+        <concepto>Transporte</concepto>
+        <importe>500</importe>
+    </gasto>
+</gastos>

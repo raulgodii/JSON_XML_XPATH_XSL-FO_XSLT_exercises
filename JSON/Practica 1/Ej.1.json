@@ -1,0 +1,10 @@
+{
+   "nombre": "Python",
+   "anio_creacion": 1991,
+   "autores": [
+      "James Gosling",
+      "Patrick Naughton",
+      "Mike Sheridan"
+   ],
+   "compilado": false
+}

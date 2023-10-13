@@ -1,0 +1,43 @@
+/* Estilo para el elemento raíz 'agenda' */
+agenda {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Estilo para los elementos 'contacto' */
+contacto {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+}
+
+/* Estilo para el elemento 'nombre' */
+nombre {
+    font-weight: bold;
+}
+
+/* Estilo para el elemento 'ciudad' */
+ciudad {
+    font-style: italic;
+}
+
+/* Estilo para el atributo 'cp' del elemento 'ciudad' */
+ciudad[cp] {
+    color: #666;
+}
+
+/* Estilo para el elemento 'telefono' */
+telefono {
+    color: #009;
+}
+
+/* Estilo para el elemento 'email' */
+email {
+    color: #00c;
+}
+
+/* Estilo para el elemento 'casado' */
+casado {
+    color: #c00;
+}

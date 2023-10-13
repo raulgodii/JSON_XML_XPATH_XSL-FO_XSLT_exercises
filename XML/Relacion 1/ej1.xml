@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program>
+  <name>Programa de ejemplo en Python</name>
+  <author>John Doe</author>
+  <language>Python</language>
+  <code><![CDATA[
+    # Programa de ejemplo en Python
+    def main():
+        print("Hola mundo!")
+        
+    if __name__ == '__main__':
+        main()
+  ]]></code>
+</program>
